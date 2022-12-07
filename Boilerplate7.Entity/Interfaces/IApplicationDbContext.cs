@@ -1,8 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace Boilerplate7.Entity.Interfaces
+﻿namespace Boilerplate7.Entity.Interfaces
 {
-    internal interface IApplicationDbContext
+    public interface IApplicationDbContext
     {
         public Task<int> SaveChangesAsync();
     }
